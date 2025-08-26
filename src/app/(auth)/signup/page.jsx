@@ -34,20 +34,19 @@ export default function SignupPage() {
   };
 
   const onSubmit = async (ev) => {
-    ev.preventDefault();
-    setServerError('');
-    if (!validate()) return;
-    setLoading(true);
-    try {
-      await AuthAPI.signup(form);   // sets httpOnly cookie on success
-      router.push('/');             // go wherever you like after signup
-    } catch (err) {
-      const msg = err?.data?.message || err?.message || 'Signup failed';
-      setServerError(msg);
-    } finally {
-      setLoading(false);
-    }
-  };
+  ev.preventDefault();
+  setServerError?.('');
+  if (!validate()) return;
+  setLoading?.(true);
+  try {
+    await AuthAPI.signup(form);
+    router.push('/');
+  } catch (err) {
+    setServerError?.(err?.data?.message || err?.message || 'Signup failed');
+  } finally {
+    setLoading?.(false);
+  }
+};
 
   const score = checks.reduce((acc, c) => acc + (c.test(form.password) ? 1 : 0), 0);
   const strength = ['Weak', 'Okay', 'Good', 'Strong', 'Strong', 'Very strong'][score];

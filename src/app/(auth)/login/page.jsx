@@ -25,19 +25,19 @@ export default function LoginPage() {
   };
 
   const onSubmit = async (ev) => {
-    ev.preventDefault();
-    setServerError('');
-    if (!validate()) return;
-    setLoading(true);
-    try {
-      await AuthAPI.login(identifier, password); // sets httpOnly cookie on success
-      router.push('/');                          // go wherever you like after login
-    } catch (err) {
-      setServerError(err?.status === 401 ? 'Invalid credentials.' : (err?.message || 'Login failed'));
-    } finally {
-      setLoading(false);
-    }
-  };
+  ev.preventDefault();
+  setServerError?.('');
+  if (!validate()) return;
+  setLoading?.(true);
+  try {
+    await AuthAPI.login(identifier, password);
+    router.push('/');
+  } catch (err) {
+    setServerError?.(err?.status === 401 ? 'Invalid credentials.' : (err?.message || 'Login failed'));
+  } finally {
+    setLoading?.(false);
+  }
+};
 
   return (
     <section className="section py-16">

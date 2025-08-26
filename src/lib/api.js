@@ -4,7 +4,10 @@
 
 export const API_URL = process.env.NEXT_PUBLIC_API_URL || '';
 
-const withBase = (path) => `${API_URL}${path}`; // path should start with /api
+const withBase = (path) => {
+  // Ensures absolute URL even when path starts with "/"
+  return API_URL ? new URL(path, API_URL).toString() : path;
+};
 
 async function fetchJSON(path, { method = 'GET', body, headers } = {}) {
   const res = await fetch(withBase(path), {
