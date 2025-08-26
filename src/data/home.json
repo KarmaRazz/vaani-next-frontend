@@ -1,0 +1,39 @@
+{
+"hero": {
+"title": "Smarter prep. Bigger results.",
+"subtitle": "Notes, mock tests, and live analysis — built for CEE & beyond.",
+"cta": "Get Started",
+"bgImage": "/images/hero-cee.png",
+"image": "/images/hero-cee.png"
+},
+"features": [
+{ "icon": "🎥", "title": "Daily Live", "subtitle": "Interactive classes" },
+{ "icon": "📝", "title": "10 Million+", "subtitle": "Tests, sample papers & notes" },
+{ "icon": "❓", "title": "24 × 7", "subtitle": "Doubt solving sessions" },
+{ "icon": "🏅", "title": "100+", "subtitle": "Offline centres" }
+],
+"notes": {
+"title": "Notes",
+"categories": [
+{ "slug": "notes", "title": "Notes" },
+{ "slug": "formula-derivation", "title": "Formula & Derivation" }
+]
+},
+"testimonials": {
+"title": "Trusted by thousands of learners",
+"items": [
+{ "name": "Anisha K.", "role": "CEE Ranker", "quote": "Vaani's mock tests felt exactly like the real exam." },
+{ "name": "Rohit S.", "role": "MBBS Student", "quote": "Notes are crisp and searchable — huge time saver." },
+{ "name": "Sujal T.", "role": "Aspirant", "quote": "Loved the analytics and question explanations." }
+]
+},
+"why": {
+"title": "Why Vaani",
+"bullets": [
+{ "icon": "⚡", "title": "Fast learning", "blurb": "Clear notes and one‑shot revisions." },
+{ "icon": "📊", "title": "Smart analytics", "blurb": "Know your weak topics instantly." },
+{ "icon": "🧠", "title": "Exam‑style tests", "blurb": "Built from real patterns & blueprints." },
+{ "icon": "🔒", "title": "Secure & reliable", "blurb": "Stable platform for live tests." }
+]
+}
+}
