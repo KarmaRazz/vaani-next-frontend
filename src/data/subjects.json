@@ -1,0 +1,7 @@
+[
+    {"id": 10, "goalId": 1, "name": "physics"},
+    {"id": 11, "goalId": 1, "name": "Chemistry"},
+    {"id": 12, "goalId": 1, "name": "Botany"},
+    {"id": 13, "goalId": 1, "name": "Zoology"},
+    {"id": 14, "goalId": 1, "name": "MAT"}
+]

@@ -13,7 +13,7 @@ body { color: rgb(31 41 55); }
 
 @layer components {
   .btn-primary { 
-    @apply inline-flex items-center justify-center px-5 py-3 rounded-xl font-semibold bg-vaani-primary text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-vaani-accent focus:ring-offset-2 transition; } 
+    @apply inline-flex items-center justify-center px-5 py-2 rounded-md font-semibold bg-vaani-primary text-white hover:bg-vaani-accent focus:outline-none focus:ring-2 focus:ring-vaani-accent focus:ring-offset-2 transition; } 
   .btn-ghost   { @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium hover:bg-gray-100; }
   .btn-other {
     @apply inline-flex items-center justify-center px-6 py-2 rounded-lg font-bold bg-vaani-accent text-white ;
@@ -21,7 +21,23 @@ body { color: rgb(31 41 55); }
   .input       { @apply w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-vaani-primary; }
   .label       { @apply block text-sm font-medium mb-1; }
   .error       { @apply mt-1 text-sm text-red-600; }
-  .card        { @apply bg-white rounded-2xl shadow-soft; }
+  .card        { @apply bg-white rounded-lg shadow-soft; }
   .section     { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
   
 }
+
+/* Admin should be full-bleed; ignore .section max-width inside admin shell */
+/* globals.css (already added) */
+.admin-shell .section,
+.admin-shell .container,
+.admin-shell [class*="max-w-"]{
+  max-width:none!important;
+  margin-left:0!important;
+  margin-right:0!important;
+  padding-left:0;
+  padding-right:0;
+}
+
+
+
+

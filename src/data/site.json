@@ -6,7 +6,7 @@
 "navLinks": [
 { "label": "Home", "href": "/" },
 { "label": "About Us", "href": "/#about" },
-{ "label": "Notes", "href": "/#notes" },
+{ "label": "Notes", "href": "/notes" },
 { "label": "ANTS", "href": "/#ants" },
 { "label": "Contact Us", "href": "/#contact" }
 ],

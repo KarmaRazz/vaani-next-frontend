@@ -12,7 +12,9 @@ export default function HomePage() {
   return (
     <>
       <Hero data={hero} />
+      <div id="features">
       <FeaturesBand items={features} />
+      </div>
       <div id="notes">
         <NotesSection data={notes} />
       </div>

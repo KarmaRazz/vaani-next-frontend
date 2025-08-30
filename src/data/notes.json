@@ -1,0 +1,68 @@
+[
+  {
+    "id": 101,
+    "title": "Kinematics — Ch 1",
+    "type": "note",
+    "subjectId": 10,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://www.google.com",
+    "isPublished": true,
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 102,
+    "title": "Fungi Basics",
+    "type": "note",
+    "subjectId": 12,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://example.com/fungi",
+    "isPublished": true,
+    "createdAt": "2025-01-02T00:00:00.000Z"
+  },
+{
+    "id": 301,
+    "title": "Derivation of v² = u² + 2as",
+    "type": "derivation",
+    "subjectId": 10,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://example.com/derivations/suvat",
+    "isPublished": true,
+    "createdAt": "2025-01-04T00:00:00.000Z"
+  },
+  {
+    "id": 302,
+    "title": "Michaelis–Menten equation derivation",
+    "type": "derivation",
+    "subjectId": 13,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://example.com/derivations/michaelis-menten",
+    "isPublished": true,
+    "createdAt": "2025-01-06T00:00:00.000Z"
+  },
+  {
+    "id": 201,
+    "title": "Kinematics: SUVAT formulas",
+    "type": "formula",
+    "subjectId": 10,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://example.com/formulas/kinematics",
+    "isPublished": true,
+    "createdAt": "2025-01-03T00:00:00.000Z"
+  },
+  {
+    "id": 202,
+    "title": "Organic Chemistry: functional groups",
+    "type": "formula",
+    "subjectId": 11,
+    "goalSlugs": ["cee"],
+    "price": 0,
+    "sheetLink": "https://example.com/formulas/organic-functional-groups",
+    "isPublished": true,
+    "createdAt": "2025-01-05T00:00:00.000Z"
+  }
+]

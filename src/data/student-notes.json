@@ -1,0 +1,45 @@
+{
+  "userId": "demo-student-1",
+  "items": [
+    {
+      "id": "sd_kinematics_ch1",
+      "type": "note",
+      "title": "Kinematics — Ch 1",
+      "subjectId": 1,
+      "goalSlugs": ["cee"],
+      "price": 0,
+      "link": "https://example.com/notes/kinematics-ch1.pdf",
+      "addedAt": "2025-08-30T10:00:00.000Z"
+    },
+    {
+      "id": "sd_chem_equilibrium",
+      "type": "note",
+      "title": "Chemical Equilibrium",
+      "subjectId": 2,
+      "goalSlugs": ["cee"],
+      "price": 0,
+      "link": "https://example.com/notes/chemical-equilibrium.pdf",
+      "addedAt": "2025-08-30T10:05:00.000Z"
+    },
+    {
+      "id": "sd_fungi_basics",
+      "type": "note",
+      "title": "Fungi Basics",
+      "subjectId": 3,
+      "goalSlugs": ["cee"],
+      "price": 0,
+      "link": "https://example.com/notes/fungi-basics.pdf",
+      "addedAt": "2025-08-30T10:10:00.000Z"
+    },
+    {
+      "id": "sd_thermo_intro",
+      "type": "note",
+      "title": "Thermodynamics — Introduction",
+      "subjectId": 1,
+      "goalSlugs": ["cee"],
+      "price": 0,
+      "link": "https://example.com/notes/thermodynamics-intro.pdf",
+      "addedAt": "2025-08-30T10:15:00.000Z"
+    }
+  ]
+}

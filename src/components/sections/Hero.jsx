@@ -7,12 +7,13 @@ import site from '../../data/site.json';
 
 export default function Hero({ data: hero }) {
     return (
-        <section className="relative">
+        <section className="relative z-0">
             <div className="relative h-[520px]">
                 
                 {/* <Image src={hero.bgImage} alt="Vaani hero" fill priority className="object-cover" /> */}
-                <div className="absolute inset-0 bg-gradient-to-r from-white/70 to-white/20"  />
-                <div className="section relative h-full flex items-center  h-auto bg-linear-to-r from-orange-400 to-red-500 object-cover">
+                <div className="absolute inset-0 bg-gradient-to-r from-white/70 to-white/20 z-0 pointer-events-none" />
+                <div className="section relative overflow-hidden z-10 min-h-[80vh] flex items-center bg-linear-to-r from-orange-400 to-red-500 object-cover">
+                {/* <div className="section relative h-full flex items-center  h-auto  */}
                     <div className="max-w-2xl ">
                         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
                             {hero.title}

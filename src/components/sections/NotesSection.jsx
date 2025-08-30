@@ -1,9 +1,9 @@
 export default function NotesSection({ data }) {
     return (
         <section className="section py-16">
-            <div className="flex items-end justify-between">
-                <h2 className="text-3xl font-bold">{data.title}</h2>
-                <a href="#" className="text-vaani-accent hover:underline">View all</a>
+            <div className="flex items-center justify-center">
+                <h2 className="text-3xl font-bold ">{data.title}</h2>
+                
             </div>
 
 
